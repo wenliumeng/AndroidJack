@@ -12,6 +12,7 @@ import java.util.UUID;
 /**
  * Created by seyMour on 2016/3/30.
  * ☞120465271@qq.com☜
+ * 上传图片
  */
 public class FileImageUpload {
     private static final int TIME_OUT = 10*1000000;

@@ -10,9 +10,9 @@ import java.net.URL;
 import java.util.UUID;
 
 /**
- * Created by seyMour on 2016/3/30.
- * ☞120465271@qq.com☜
  * 上传图片
+ * <br>Created by seyMour on 2016/3/30.</br>
+ * <br>☞120465271@qq.com☜</br>
  */
 public class FileImageUpload {
     private static final int TIME_OUT = 10*1000000;

@@ -32,6 +32,11 @@ public class PicCompress {
         return BitmapFactory.decodeStream(is);
     }
 
+    /**
+     * 图片大小压缩
+     * @param srcPath
+     * @return
+     */
     private Bitmap getBitmap(String srcPath){
         BitmapFactory.Options newOpts = new BitmapFactory.Options();
         //通知BitmapFactory只返回图像的范围，而不尝试解码该图像

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 自定义控件进度条 -->
+    <declare-styleable name="ImageBtnWithText">
+       <attr name="android:text"></attr>
+       <attr name="android:src"></attr>
+       <attr name="age">
+           <flag name="young" value="10"></flag>
+       </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="Meter">
+        <attr name="max" format="integer"></attr>
+        <attr name="incr" format="integer"></attr>
+        <attr name="decr" format="integer"></attr>
+    </declare-styleable>
+    
+    
+    <!-- 圆角图标 -->
+    <attr name="boderRadius" format="dimension"></attr>
+    <attr name="type">
+       <enum name="circle" value="0"></enum>
+       <enum name="round" value="1"></enum> 
+    </attr>
+    <attr name="src" format="reference"></attr>
+    
+    <declare-styleable name="CustomImageView">
+        <attr name="boderRadius"/>
+        <attr name="type"></attr>
+        <attr name="src"></attr>
+    </declare-styleable>
+    
+    <declare-styleable name="RoundImageView">
+        <attr name="boderRadius" />
+        <attr name="type"/>
+    </declare-styleable>
+    
+    <declare-styleable name="CustomImageViewt">
+        <attr name="boderRadius" />
+        <attr name="type" />
+        <attr name="src"/>
+    </declare-styleable>
+</resources>

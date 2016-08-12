@@ -9,15 +9,41 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".demos.Activity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".demos.MainActivity_TransparentSuspendActivity"
+            android:theme="@android:style/Theme.Translucent"></activity>
+        <activity android:name=".demos.MainActivity_LButtonBg"></activity>
+        <activity android:name=".demos.MainActivity_LinearlayoutAlignAlert"></activity>
+        <activity android:name=".demos.MainActivity_CustomWidget"></activity>
+        <activity android:name=".demos.MainActivity_CustomWidget2"></activity>
+        <activity android:name=".demos.MainActivity_CustomRoundPic"></activity>
+        <activity android:name=".demos.MainActivity_JavaCodeControlPic"></activity>
+        <activity android:name=".demos.MainActivity_ScrollView"></activity>
+        <activity android:name=".demos.MainActivity_RoundPic"></activity>
+        <activity android:name=".demos.MainActivity_Revolve"></activity>
+        <activity android:name=".demos.MainActivity_VerticalAlign"></activity>
+        <activity android:name=".demos.MainActivity_Clock"></activity>
+        <activity android:name=".demos.MainActivity_ListView"></activity>
+        <activity android:name=".demos.MainActivity_Shader"></activity>
+        <activity android:name=".demos.MainActivity_ShaderAming"></activity>
+        <activity android:name=".demos.MainActivity_ShaderInverted"></activity>
+        <activity android:name=".demos.MainActivity_Ondraw_Rotato_lay"></activity>
+        <activity android:name=".demos.MainActivity_DataWidgetDialog"></activity>
+        <activity android:name=".demos.MainActivity_LayoutParamsBug"></activity>
+        <activity android:name=".demos.MainActivity_ChangeAnyPic"></activity>
+        <activity android:name=".demos.MainActivity_Touch"></activity>
+        <activity android:name=".demos.MainActivity_CustomWidgetDrawComplexPic"></activity>
+        <activity android:name=".demos.MainActivity_ReflectView"></activity>
+        <activity android:name=".demos.MainActivity_CustomAlertDialog"></activity>
+        <activity android:name=".demos.MainActivity_GuaGuaKa"></activity>
     </application>
 
 </manifest>
